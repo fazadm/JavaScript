@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232529;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dilanda {
+  color: red;
+  font-size: 18px;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prac {
+  color: white;
+}
+
+.js {
+  color: #feb236;
+  margin: 15px;
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.input {
+  padding: 20px;
+  margin: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
