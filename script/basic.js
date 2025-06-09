@@ -1,60 +1,60 @@
-let nama = "Fauzan"
+let nama = 'Fauzan'
 let tahunLahir = 2006
-let alamat = "Nusaherang"
+let alamat = 'Nusaherang'
 let tahunSekarang = 2024
 
-const message = "Hi nama saya" + ' ' + nama + ' ' + "Umur saya" + ' ' + (tahunSekarang - tahunLahir) + ' ' + "Alamat saya berada di" + ' ' + alamat
+const message = 'Hi nama saya' + ' ' + nama + ' ' + 'Umur saya' + ' ' + (tahunSekarang - tahunLahir) + ' ' + "Alamat saya berada di" + ' ' + alamat
 console.log(message)
 
 if (7 + 7 == 14) {
-  console.log("true");
+  console.log('true');
 } else {
-  console.log("false");
+  console.log('false');
 }
 
-let name = "John",
+let name = 'John',
   admin = name;
 
 alert(admin);
 
 // or
 
-// let name, admin;
-// (name = "john"), (admin = name), alert(admin);
+let name, admin;
+(name = 'john'), (admin = name), alert(admin);
 
 // example
-let ourPlanet = "Earth";
-let currentUserName = "John";
+let ourPlanet = 'Earth';
+let currentUserName = 'John';
 
 function checkAge() {
-  console.log("Hello world");
+  console.log('Hello world');
 }
 
-let text = "Apple, Banana, Kiwi";
+let text = 'Apple, Banana, Kiwi';
 let part = text.slice(-12, -6);
 console.log(part);
 
 function favAnimal(animal) {
-	return animal + " Is my favorite animal"
+	return animal + ' Is my favorite animal'
 }
 
 console.log(favAnimal('Cat'))
 
 
-function showMessage(from, text = "Hoolaaaaa") {
-  from = "*" + from + "*";
-  alert(from + ":" + text);
+function showMessage(from, text = 'Hoolaaaaa') {
+  from = '*' + from + '*';
+  alert(from + ':' + text);
 }
-let from = "Ann";
-showMessage(from, "Hello");
+let from = 'Ann';
+showMessage(from, 'Hello');
 
 alert(from);
 
 function checkAge(age) {
-  return age > 18 ? true : confirm("Did your parents allow you?");
+  return age >= 18 ? "You grow a lot dind't you?" : "Did your parents allow you?";
 }
 
-const myArray = ["I", "love", "chocolate", "frogs"];
+const myArray = ['I', 'love', 'chocolate', 'frogs'];
 const madeAString = myArray.join();
 console.log(madeAString);
 
@@ -69,12 +69,12 @@ showMessage(); // Hello, John
 console.log(message);
 
 
-console.log("Hello");
+console.log('Hello');
 console.log(4 + 6 + 9) / 77;
 
-let message = "Hi",
+let message = 'Hi',
   age = 17,
-  user = "John",
+  user = 'John',
   $ = 1,
   _ = 2,
   apple = 3,
@@ -85,19 +85,13 @@ alert(user);
 alert(message);
 alert($ + _ + apple - APPLE); // We can calculate different things
 
-const birthday = "18.09.2004";
-birthday = "18.23.2004"; // you cannot reassign variable in const
-
-let name = "John",
-  admin = name;
-
-alert(admin);
-
+const birthday = '18.09.2004';
+birthday = '18.23.2004'; // you cannot reassign variable in const
 
 let userName = 'John';
 
 function showMessage() {
-  let userName = "Bob"; // (1) changed the outer variable
+  let userName = 'Bob'; // (1) changed the outer variable
 
   let message = 'Hello, ' + userName;
   console.log(message);
@@ -116,7 +110,7 @@ function showMessage(text) {
     text = 'empty message';
   }
 
-  console.log("text");
+  console.log(text);
 }
 
 showMessage(); // empty message
@@ -126,10 +120,10 @@ function sum(a, b) {
 }
 console.log(sum(1, 2 )); // 3
 
-let message = "Aku kaya";
+let message = 'Aku kaya';
 
 function msg() {
-	let aku = "Aku pintar";
+	let aku = 'Aku pintar';
 	console.log(aku);
 }
 
@@ -138,7 +132,7 @@ console.log(message);
 msg();
 console.log(aku);
 
-
+age = 17;
 let = checkAge(age); {
   if (age >= 18) {
     return true;
@@ -150,15 +144,15 @@ let = checkAge(age); {
 function ask() {
   let age = prompt()
   if (age < 18) {
-    alert("Hello")
+    alert('Hello')
   } else {
-    alert("Greetings")
+    alert('Greetings')
   }
 }
 
 ask();
 
-console.log("Hello world")
+console.log('Hello world')
 
 console.log(23 + 97 + 31 + 31 + 43 + 21);
 console.log((4 + 6 + 9) / 77);
@@ -180,4 +174,4 @@ let j = a + b;
 
 let g = 312 + 312 * a;
 
-document.getElementById("demo").innerHTML = g;
+document.getElementById('demo').innerHTML = g;
